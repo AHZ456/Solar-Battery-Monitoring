@@ -1,0 +1,12 @@
+1.Press Ctrl+shift+p in VScode after installing both vscode and espressif IDE 
+2.Write "New project" in the search bar and press ENTER
+5.A new tab called "New project" should appear.
+6. Choose project name and directory ( make sure to remember the directory).
+7. Choose ESP-WROVER-KIT 3.3V in the in the "Choose ESP-IDF board" section.
+8.Click on "choose template".
+9. Select "ESP-IDF" instead of "Extension" in the drop-down menu.
+10.Under the "get-started" heading click on "blink" and then on "Create project using template blink".
+11.Now head to the directory of the project and click on your project folder.
+12. Replace the main folder in the project directory by the main folder located in "2. Source code".
+13. Restart VScode 
+

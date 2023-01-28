@@ -1,0 +1,3 @@
+Due to parsing issues, we have used two seperate channels:
+1.Monitoring channel: with 3 fields for each parameter (voltages and current)
+2. System startup channel: with 1 field marking everytime the esp32 launches, making it useful for debugging power faults.

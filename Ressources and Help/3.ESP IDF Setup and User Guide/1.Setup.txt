@@ -1,0 +1,2 @@
+Follow this official guide made by espressif for installing the ESP-IDF platform 
+https://www.youtube.com/watch?v=Lc6ausiKvQM

@@ -1,0 +1,7 @@
+You need to follow the following steps in order to setup the thingspeak cloud:
+1. head to https://thingspeak.com and click on create new account.
+2.make sure to check the box " Use this email for my Mathworks account"
+3.Create a new channel 
+4.Configure the channel according to your needs: each field represent a data container.
+5.Head to the "API keys" tab and copy the API Write key and the Channel ID ( top left side of the screen).
+6.Paste the API write key and Channel ID in their respective defines in the I2C.hpp file.

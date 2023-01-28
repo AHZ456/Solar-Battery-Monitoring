@@ -1,0 +1,10 @@
+1.Navigate to the I2C.hpp file (double click on it on the left side of the screen, if no files are apparent, select the file icon on the vertical strip) 
+and input your wifi name and password in their defines.
+2.In the blue strip under the terminal screen section, press the cog icon (ESP-IDF SDK Configuration).
+(it might take a while to load when launching for the first time)
+
+3.on the left side, select partition table.
+4.on the right side, select "single factory app (large) no OTA" to increase the available flash(MANDATORY STEP).
+5. In the blue strip under the terminal screen section, press the flame icon to build and flash 
+(compiling for the first time does take a significant amount of time).
+6.Check the terminal output to see if the board was flashed successfully.
