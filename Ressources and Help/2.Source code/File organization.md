@@ -1,7 +1,7 @@
--adc1_example_main.cpp: is the main file of the project, contains the actual code of monitoring voltage and current only (for State of charge consult the "BatteryM" folder.
--I2C.cpp: contains the body of the functions used in the main.cpp file (Current sensor functions, voltage measurement functions, time management...etc)
--I2C.hpp: contains the prototypes of the functions, the declarations of global variables, defines, includes, and structures. 
--cert.pem,json11.cpp,json11.hpp,Kconfig.projbuild,Thingspeak.h,wifi_utils.h: are necessary files for the Thingspeak cloud library.
+- adc1_example_main.cpp: is the main file of the project, contains the actual code of monitoring voltage and current only (for State of charge consult the "BatteryM" folder.
+- I2C.cpp: contains the body of the functions used in the main.cpp file (Current sensor functions, voltage measurement functions, time management...etc)
+- I2C.hpp: contains the prototypes of the functions, the declarations of global variables, defines, includes, and structures. 
+- cert.pem,json11.cpp,json11.hpp,Kconfig.projbuild,Thingspeak.h,wifi_utils.h: are necessary files for the Thingspeak cloud library.
 
-##IMPORTANT NOTE: the I2C.hpp file contails the defines for WIFI password and name. You will need to modify them there later while following the steps of folder 3. 
+## IMPORTANT NOTE: the I2C.hpp file contails the defines for WIFI password and name. You will need to modify them there later while following the steps of folder 3. 
 Comments will guide you to the aforementioned defines.
