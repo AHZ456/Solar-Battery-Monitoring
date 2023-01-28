@@ -4,7 +4,7 @@
 #include "wifi_utils.h"
 
 
-
+//PEUKERT COMPENSATION is COMMENTED SINCE IT WAS NOT USED IN THE FINAL PROTOTYPE OF MONITORING
 
 
 
@@ -12,9 +12,7 @@
 
 // Time added in order to balance the integration and reduce the effect of the I2C function delays
 
-// TO DO:
-// ALGORITHM TEST USING A POWERSUPPLY
-// measure the erro using the formula and compare it with the error experimentally
+
 float SOC1 = 0, SOC2 = 0;
 current fb={0,0,0};
 #if SHUNT_CKT
@@ -57,13 +55,7 @@ void vTaskCurrentIntegration()
 
 
  
-  // FUNC
-  // Re-check SOC integration
-  // The peukert exponent varies, therefore a nominal discharge rate should be defined
-  // read more about how SOC integration was implemented
- //dac_output_voltage(DAC_CHANNEL_2, 120);
-  // In the final implementation, increase the ADD delay instead of the number of iterations
-  // to have the same effect with the added benefit of accuracy
+
     MEAS NOLOAD = VBAT(channel, channel2, adc_chars, 256);
 SEND(NOLOAD,0,0);
   while (1)
