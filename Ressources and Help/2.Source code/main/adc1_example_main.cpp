@@ -8,6 +8,7 @@
 uint16_t SIZE=1964;
 //1964 default for 1.35 days storage
 
+//SIMPLE VOLTAGE AND CURRENT MONITORING WITH CLOUD STORAGE
 
 DATA *RAMstorage = (DATA*)calloc(SIZE, sizeof(DATA));
 
