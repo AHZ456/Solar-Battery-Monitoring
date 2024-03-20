@@ -1,4 +1,4 @@
-# BatteryM
+# Solar Battery Monitoring
 Welcome to the github repository of the PV system battery State-of-Charge monitoring project.
 Navigate over to the "Ressources and Help" section to view the final-year project report associated with this project alongside some useful information.
 
